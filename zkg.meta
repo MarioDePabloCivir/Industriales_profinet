@@ -1,0 +1,9 @@
+[package]
+script_dir = scripts/PROFINET
+build_command = ./configure && make
+tags = zeek plugin, protocol analyzer, log writer, ics, profinet
+description = Plugin that enables parsing of the Profinet protocol
+depends =
+  zkg >=2.0
+  zeek >=4.0.0
+
